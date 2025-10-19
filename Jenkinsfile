@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/affishh/staging-node-app.git'
+                git 'https://github.com/affishh/automate_nodeapp_deployme.git'
             }
         }
 
