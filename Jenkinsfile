@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/affishh/automate_nodeapp_deployme.git'
+                checkout scm
             }
         }
 
