@@ -1,0 +1,12 @@
+{
+  "name": "automate_nodeapp_deployme",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.1"
+  }
+}
