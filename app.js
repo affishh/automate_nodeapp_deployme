@@ -27,6 +27,6 @@ app.get('/', (req, res) => {
     `);
 });
 
-app.listen(port, () => {
-    console.log(`Vulnerable app listening at http://localhost:${port}`);
+app.listen(4000, '0.0.0.0', () => {
+  console.log('Listening...');
 });
